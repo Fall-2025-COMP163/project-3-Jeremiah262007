@@ -47,14 +47,14 @@ def create_enemy(enemy_type):
 
     # Construct the enemy dictionary
     enemy = {
-        "name": enemy_type,
-        "health": base["health"],
-        "max_health": base["health"],
-        "strength": base["strength"],
-        "magic": base["magic"],
-        "xp_reward": base["xp_reward"],
-        "gold_reward": base["gold_reward"]
-    }
+    "name": enemy_type.capitalize(),
+    "health": base["health"],
+    "max_health": base["health"],
+    "strength": base["strength"],
+    "magic": base["magic"],
+    "xp_reward": base["xp_reward"],
+    "gold_reward": base["gold_reward"]
+}
 
     return enemy
 
