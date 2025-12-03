@@ -4,7 +4,16 @@ Character Manager Module - Starter Code
 
 Name: Jeremiah Cooper
 
-AI Usage: [Document any AI assistance used]
+AI Usage:
+
+AI assistance was used to help understand and clarify the logic behind character management functions. Specifically, it helped explain:
+
+* **Character Creation** – Validating classes, setting base stats, initializing fields.
+* **Gold Operations** – Adding or spending gold with validation to prevent negative totals.
+* **Save/Load System** – Converting dictionaries to file format, parsing saved data, and validating integrity.
+* **Exception Handling** – Understanding when exceptions like `InvalidCharacterClassError`, `CharacterDeadError`, `InvalidSaveDataError`, and `CharacterNotFoundError` should be raised.
+All final code logic, implementation, and testing were completed independently.
+
 
 This module handles character creation, loading, and saving.
 """
