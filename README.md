@@ -166,3 +166,33 @@ From the project directory, run:
 
 ```bash
 python3 main.py
+
+# **2. Main Menu Options**
+Start New Game – Create a character and begin playing.
+Load Game – Load an existing save (if implemented).
+View Character – Display stats, level, XP, gold.
+Enter Combat – Fight enemies and earn rewards.
+Manage Inventory – Use or add items.
+Quest Menu – Accept or complete quests.
+Quit Game – Exit safely.
+
+---
+
+# **3. Combat Overview**
+Pick attacks or abilities
+Manage cooldowns
+Defeat enemies for XP and gold
+
+---
+
+# **4. Quests**
+Accept quests from the quest list
+Fulfill objectives
+Earn gold and XP rewards
+
+---
+
+# **5. Inventory**
+Use healing items and consumables
+Check storage capacity
+Add new items as rewards
