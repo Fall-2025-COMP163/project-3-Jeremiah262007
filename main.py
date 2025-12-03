@@ -4,7 +4,9 @@ Main Game Module - Starter Code
 
 Name: Jeremiah Cooper
 
-AI Usage: [Document any AI assistance used]
+AI Usage:
+Assistance was used to structure the main game flow, integrating modules for character management, inventory, quests, combat, and game data. Guidance helped implement menus for starting a new game, loading saved games, and navigating in-game actions (viewing stats, managing inventory, quests, exploring, and shopping). Support included handling user input validation, orchestrating game loops, saving/loading game state, and implementing character death and revival logic. Error handling for custom exceptions such as InvalidCharacterClassError, CharacterNotFoundError, and SaveFileCorruptedError was clarified. All menu interactions, helper functions, and integration logic were independently implemented.
+
 
 This is the main game file that ties all modules together.
 Demonstrates module integration and complete game flow.
