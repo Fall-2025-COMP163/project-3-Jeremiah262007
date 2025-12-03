@@ -4,7 +4,9 @@ Quest Handler Module - Starter Code
 
 Name: Jeremiah Cooper
 
-AI Usage: [Document any AI assistance used]
+AI Usage: 
+Assistance was used to design and implement quest management functionality, including accepting, completing, and abandoning quests. Guidance helped enforce quest requirements such as level restrictions, prerequisite quests, and preventing duplicate or already completed quests. Support was provided for tracking active and completed quests, calculating quest rewards (XP and gold), and generating quest statistics such as completion percentage and total rewards earned. The module also includes helper functions for displaying quest information, validating prerequisite chains, filtering quests by level, and checking quest availability. Error handling for custom exceptions like QuestNotFoundError, QuestRequirementsNotMetError, QuestAlreadyCompletedError, and QuestNotActiveError was clarified. All data validation, display formatting, and prerequisite chain logic were independently implemented.
+
 
 This module handles quest management, dependencies, and completion.
 """
