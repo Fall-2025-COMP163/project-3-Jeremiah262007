@@ -4,7 +4,9 @@ Inventory System Module - Fixed Version
 
 Name: Jeremiah Cooper
 
-AI Usage: [Document any AI assistance used]
+AI Usage:
+Assistance was used to structure and refine inventory management logic, including adding, removing, counting, and clearing items. Guidance helped implement item usage with effect parsing, consumable validation, and stat modification. Support was also provided for equipping/unequipping weapons and armor, handling shop transactions (purchase/sell), and ensuring inventory limits are respected. Error handling for custom exceptions like InventoryFullError, ItemNotFoundError, and InvalidItemTypeError was clarified and integrated. All code logic and testing were independently implemented.
+
 """
 
 from custom_exceptions import (
