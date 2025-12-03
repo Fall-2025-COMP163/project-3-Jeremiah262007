@@ -4,7 +4,9 @@ Combat System Module - Starter Code
 
 Name: Jeremiah Cooper
 
-AI Usage: [Document any AI assistance used]
+AI Usage: 
+Assistance was used to structure and clarify combat system logic, including enemy creation, turn-based mechanics, special abilities, and utility functions. Guidance was also provided on when and how to raise exceptions such as InvalidTargetError, CombatNotActiveError, and CharacterDeadError. All implementation, testing, and final code decisions were performed independently.
+
 
 Handles combat mechanics
 """
