@@ -4,7 +4,9 @@ Game Data Module - Starter Code
 
 Name: Jeremiah Cooper
 
-AI Usage: [Document any AI assistance used]
+AI Usage:
+Assistance was used to structure and clarify game data loading, parsing, and validation logic. Guidance included handling missing or corrupted files, converting numeric fields, and raising specific exceptions like MissingDataFileError, CorruptedDataError, and InvalidDataFormatError. All implementation decisions, testing, and final data parsing were performed independently.
+
 
 This module handles loading and validating game data from text files.
 """
