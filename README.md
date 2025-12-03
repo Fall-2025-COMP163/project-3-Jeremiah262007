@@ -1,5 +1,8 @@
 # **Quest Chronicles – README**
 
+**By: Jeremiah Cooper**
+**Date: 12/2/25** 
+
 ## **Module Architecture**
 
 This project is organized into modular Python files, each responsible for a separate part of the game. This structure improves readability, testing, and scalability.
@@ -152,9 +155,71 @@ Quests are stored as dictionaries for easy expansion.
 
 # **AI Usage Statement**
 
-*Modify this as needed.*
+During the development of **Quest Chronicles**, I utilized AI assistance from ChatGPT to support multiple aspects of the project, primarily for conceptual understanding, debugging, code organization, and documentation. The assistance provided was structured, guided, and served as a learning tool rather than replacing any coding work.  
 
-Some assistance was used from ChatGPT to help debug modules, explain exceptions, improve organization, and refine code structure. All final logic, game mechanics, and implementation decisions were written, tested, and verified by me.
+### **1. Understanding Coding Logic**
+
+ChatGPT helped me:
+
+* **Break down complex modules** – For example, the `quest_handler.py` and `combat_system.py` contain multiple interdependent functions and exceptions. AI guidance helped me understand the flow of:
+  - How quests are accepted, completed, and tracked  
+  - How prerequisites are validated  
+  - How combat actions interact with character stats and abilities
+
+* **Clarify exception handling** – By explaining **why and when specific exceptions are raised**, I gained a better understanding of the underlying game logic, such as:
+  - `InsufficientLevelError` ensures that a character cannot bypass progression  
+  - `QuestRequirementsNotMetError` enforces logical quest order  
+  - `AbilityOnCooldownError` maintains fair combat mechanics  
+
+* **Reinforce debugging practices** – AI suggested structured strategies for checking character dictionaries, validating input data, and verifying function outputs step by step. This strengthened my ability to reason through errors systematically.
+
+---
+
+### **2. Code Organization and Best Practices**
+
+AI assisted in:
+
+* **Module structuring** – Helping separate systems into self-contained files (`character_manager.py`, `quest_handler.py`, `combat_system.py`, `inventory_system.py`) and explaining the benefits of modularity for readability, testing, and scalability.
+* **Naming conventions and function clarity** – Suggested meaningful function and variable names to improve readability and maintainability.
+* **Dictionary-based design justification** – Reinforced why using dictionaries for characters, quests, and enemies made debugging easier and aligned with course expectations.
+
+---
+
+### **3. Documentation and README Development**
+
+ChatGPT guided me in creating a **comprehensive, GitHub-ready README** that includes:
+
+* Clear explanations of **module responsibilities**
+* Detailed **exception strategy**, explaining when and why errors are raised
+* Step-by-step **How to Play instructions**
+* Tables and lists for readability and structured presentation
+* Professional styling suitable for submission and sharing
+
+The AI helped turn technical details into accessible language while maintaining accuracy, ensuring that both code and documentation demonstrate a deep understanding of the project.
+
+---
+
+### **4. Learning and Problem Solving**
+
+The assistance went beyond simply providing solutions:
+
+* AI prompted me to think critically about game mechanics and logic sequencing.  
+* Encouraged me to reason through prerequisites and dependencies in quests.  
+* Helped me verify edge cases, such as handling empty quest lists or invalid actions.  
+* Provided iterative feedback on formatting, organization, and clarity for both code and documentation.
+
+---
+
+### **Summary**
+
+ChatGPT acted as a **learning partner and guide**, not a replacement for my work. It helped me:
+
+* Deepen my understanding of Python logic and modular programming  
+* Refine code structure and exception handling  
+* Create professional, polished documentation  
+* Develop reasoning skills for debugging and problem solving  
+
+All final game logic, implementations, and testing were completed independently, ensuring that I fully grasped every aspect of the project.
 
 ---
 
